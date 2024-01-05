@@ -1,0 +1,50 @@
+/* Common css for universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+    /* width: 100%;
+    min-width: 420px; */
+    margin: 10px 10%;
+}
+/* Primary color */
+.text-orange {
+  color: #fd6e0a;
+}
+/* Nav related style */
+nav {
+  display: flex;
+  /* padding: 20px 30px; */
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+  margin-right: 50px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #444;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
