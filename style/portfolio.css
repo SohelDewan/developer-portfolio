@@ -5,11 +5,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-body{
-    /* width: 100%;
-    min-width: 420px; */
-    margin: 10px 10%;
-}
+
 /* Primary color */
 .text-orange {
   color: #fd6e0a;
@@ -17,7 +13,7 @@ body{
 /* Nav related style */
 nav {
   display: flex;
-  /* padding: 20px 30px; */
+  padding: 3px;
   align-items: center;
   justify-content: space-between;
 }
@@ -47,4 +43,13 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
+}
+/* Header related styles */
+.header {
+  background: #fff8f3;
+  padding: 30px 30px 30px 200px;
+}
+.banner{
+    display: flex;
+    align-items: center;
 }
