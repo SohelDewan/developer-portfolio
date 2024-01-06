@@ -88,6 +88,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .section-title {
   color: #181818;
   text-align: center;
@@ -120,6 +123,7 @@ main {
   font-size: 20px;
   color: #474747;
 }
+/* Skills related styles */
 #what-i-do {
   padding: 30px 150px 50px;
   text-align: center;
@@ -127,21 +131,43 @@ main {
 .skills-container {
   display: flex;
   margin-top: 30px;
+  gap: 24px;
+  /* giving a gap the below margin-right is not needed */
 }
 .skill {
   border-radius: 5px;
   background: #fff;
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  margin-right: 22px;
+  /* margin-right: 22px; */
 }
-.skill:nth-of-type(4){
+/* .skill:nth-of-type(4){
     margin-right: 0;
-}
+} */
 .skill-title{
     padding: 12px 0;
 }
 .skill-description{
     font-size: 16px;
     line-height: 28px;
+}
+/* Resume section style */
+.resume{
+  display: flex;
+  gap:70px;
+  justify-content: space-between;
+  color: #474747;
+}
+.resume h3,h4,h5{
+  margin-bottom: 12px;
+}
+.resume-education, .resume-experience{
+  max-width: 511px;
+}
+.resume-box{
+  margin: 20px 0;
+}
+.btn-cv {
+  text-align: center;
+  margin: 30px 0;
 }
