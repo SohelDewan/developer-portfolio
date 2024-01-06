@@ -49,9 +49,10 @@ nav a {
 .header {
   background: #fff8f3;
   padding: 30px 30px 0px 160px;
-  background-image: url(../images/header_bg.png);
+  background-image: url(../images/header_bg.png), url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
+  object-fit: cover;
 }
 .banner {
   display: flex;
@@ -88,8 +89,8 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
-    margin-top: 130px;
+main section {
+  margin-top: 130px;
 }
 .section-title {
   color: #181818;
@@ -144,30 +145,71 @@ main section{
 /* .skill:nth-of-type(4){
     margin-right: 0;
 } */
-.skill-title{
-    padding: 12px 0;
+.skill-title {
+  padding: 12px 0;
 }
-.skill-description{
-    font-size: 16px;
-    line-height: 28px;
+.skill-description {
+  font-size: 16px;
+  line-height: 28px;
 }
 /* Resume section style */
-.resume{
+.resume {
   display: flex;
-  gap:70px;
+  gap: 70px;
   justify-content: space-between;
   color: #474747;
 }
-.resume h3,h4,h5{
+.resume h3,
+h4,
+h5 {
   margin-bottom: 12px;
 }
-.resume-education, .resume-experience{
+.resume-education,
+.resume-experience {
   max-width: 511px;
 }
-.resume-box{
+.resume-box {
   margin: 20px 0;
 }
 .btn-cv {
   text-align: center;
   margin: 30px 0;
+}
+/* Footer Style */
+.footer-container{
+  padding: 130px 200px;
+  background-color: #fff8f3;
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  gap: 5%;
+}
+.footer-column.left p{
+  margin-bottom: 30px;
+}
+.footer-column  button{
+  margin-top: 30px;
+}
+.footer-column  input{
+  margin-bottom: 15px;
+  display: block;
+  width: 300px;
+  height: 50px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.social-links{
+  margin-left: 25px;
+}
+.social-links a{
+  margin-right: 20px;
+  font-size: 24px;
+}
+.footer-column textarea{
+  max-width: 300px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
 }
